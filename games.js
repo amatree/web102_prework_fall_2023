@@ -1,4 +1,6 @@
 // Image credits: Kickstarter
+// `backers` holds a number referring to the number of unique people who have donated to fund a game
+// `pledged` holds a dollar amount referring to the amount of money backers have donated to the game
 const games = ` [
   {
     "name": "Heroes Of Mythic Americas",
@@ -89,7 +91,7 @@ const games = ` [
     "img": "./assets/kingdom_death.png"
   }
 ]
-`
+`;
 const template = `
 {
 "name": "",
@@ -99,6 +101,6 @@ const template = `
 "backers": 0,
 "img": ""
 },
-`
+`;
 
 export default games;
